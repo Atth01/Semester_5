@@ -1,0 +1,45 @@
+Tentu, berikut adalah relasi antar entitas untuk studi kasus Penjualan Tiket Bioskop:
+
+1. *Film dan Jadwal Film (1 to Many):*
+   - Film(ID Film) -> Jadwal Film(ID Film)
+
+2. *Studio Bioskop dan Jadwal Film (1 to Many):*
+   - Studio Bioskop(ID Studio) -> Jadwal Film(ID Studio)
+
+3. *Jadwal Film dan Pemesanan Tiket (1 to Many):*
+   - Jadwal Film(ID Jadwal) -> Pemesanan Tiket(ID Jadwal)
+
+4. *Jadwal Film dan Laporan Penjualan (1 to Many):*
+   - Jadwal Film(ID Jadwal) -> Laporan Penjualan(Rincian Penjualan per Jadwal Film)
+
+5. *Pemesanan Tiket dan Tiket (1 to Many):*
+   - Pemesanan Tiket(ID Pemesanan) -> Tiket(ID Pemesanan)
+
+6. *Pemesanan Tiket dan Pelanggan (Many to One):*
+   - Pemesanan Tiket(ID Pelanggan) <- Pelanggan(ID Pelanggan)
+
+7. *Pemesanan Tiket dan Pegawai (Many to One):*
+   - Pemesanan Tiket(ID Pegawai) <- Pegawai(ID Pegawai)
+
+8. *Pemesanan Tiket dan Promosi (Many to One):*
+   - Pemesanan Tiket(ID Promosi) <- Promosi(ID Promosi)
+
+9. *Rating Film dan Film (Many to One):*
+   - Rating Film(ID Film) <- Film(ID Film)
+
+10. *Manajemen Inventaris dan Pemesanan Tiket (1 to Many):*
+    - Manajemen Inventaris(ID Inventaris) -> Pemesanan Tiket(ID Inventaris)
+
+11. *Perizinan Film dan Film (Many to One):*
+    - Perizinan Film(ID Film) <- Film(ID Film)
+
+12. *Teknologi Layar dan Studio Bioskop (1 to Many):*
+    - Teknologi Layar(ID Studio) -> Studio Bioskop(ID Studio)
+
+13. *Keamanan Bioskop dan Studio Bioskop (1 to Many):*
+    - Keamanan Bioskop(ID Studio) -> Studio Bioskop(ID Studio)
+
+14. *Manajemen Karyawan dan Pegawai (Many to One):*
+    - Manajemen Karyawan(ID Pegawai) <- Pegawai(ID Pegawai)
+
+Dengan relasi ini, Anda dapat melihat hubungan antar entitas dalam sistem informasi penjualan tiket bioskop, termasuk bagaimana setiap entitas terhubung satu sama lain.

@@ -1,0 +1,6 @@
+Ket:
+B = Bias
+W = Bobot
+Hyperplane = Membatasi Kelas Positif dan Negatif
+Practice in Excel:
+- Untuk menentukan W, selalu ambil persamaan terakhir dari setiap eliminasi w

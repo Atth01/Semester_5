@@ -1,0 +1,26 @@
+Jurnal:
+- PERANCANGAN SISTEM INTEGRASI APLIKASI TERDISTRIBUSI PADA TRANSAKSI DATA PESANAN MENGGUNAKAN WEB SERVICE (Akmal)
+- Monitoring pembangkit listrik berbasis Human Interface dan IOT (Ade)
+- Pemanfaatan Mikrokontoler Berbasis Internet Protocol (IP), Pada sistem kehadiran menggunakan kartu identitas (Andrean)
+- Sistem Cerdas Pendekteksi dan penghitung korban bencana alam menggunakan algoritma Deep Learning (Atthariq)
+- Perancangan Alat Ukur Suhu Tubuh dan Hand Sanitizer otomatis berbasis IOT (Attu)
+- SISTEM KECERDASAN BUATAN UNTUK MENENTUKAN HARGA SEWA KAMAR KOST MENGGUNAKAN ALGORITMA FUZZY TSUKAMOTO (Zia)
+- ANALISIS DAN OPTIMALISASI JARINGANG MENGGUAKAN TEKNIN LOAD BALANCING (Dimas Adji)
+- Alat Penyiram Tanaman Otomatis Berbasis Arduino menggunakan Internet Of Things (IOT) (Eko)
+- PENCARIAN KATA AYAT AL-QUR’AN (Ina)
+- Penerapan Metode Machine Learning untuk Deteksi Bencana Banjir
+- Implementasi Algoritma Naive Bayes Untuk Memprediksi Tingkat Penyebaran Covid-19 di Indonesia
+- SISTEM PEMANTAUAN DAN  PENGENDALIAN PH AIR BERBASIS IoT  MENGGUNAKAN PLATFORM ARDUINO (Dhea)
+- Implementasi Algoritma Greedy Kombinasi dengan Perulangan pada Aplikasi Penjadwalan Praktikum (Adam) 
+- Implementasi Data Mining Menggunakan Algoritma Apriori Untuk Meningkatkan Pola Penjualan Obat
+- Deep Learning dalam Mengindetifikasi Jenis Bangunan Heritage dengan Algoritma Convolutional Neural Network (Ridwan)
+- PENGENALAN JALAN BERLUBANG BERBASIS VISION MENGGUNAKAN PYRAMID HISTOGRAM OF ORIENTED GRADIENTS (AG)
+- Implementasi Sistem Rekomendasi Tipe Rumah Menggunakan Metode Naïve Bayes (Satria)
+- Penerapan Data Mining Prediksi Nilai Ujian Nasional (UN) Siswa SMP Menggunakan Metode Naïve Bayes (Faris)
+- SISTEM PREDIKSI PENYAKIT JANTUNGB MENGGUNAKAN METODE NAIVE BAYES (Indri)
+- Alat Pendeteksi Kebakaran Dini Berbasis Internet Of Things (IoT) Menggunakan NodeMCU Dan Telegram (Mirna)
+- Penerapan Algoritma K-Nearest Neighbor Untuk Memprediksi Kelulusan Mahasiswa (Meysa)
+- PENERAPAN METODE NAIVE BAYES UNTUK PREDIKSI MINAT BACA BERDASARKAN USIA (Langit)
+- Artificial Intelegent Automatic Speech Recognition (ASR) untuk pencarian potongan ayat Al-Quran (Yasmin)
+- Prediksi Angka Kelahiran Bayi Pada Desa Tridaya Sakti Dengan Menggunakan Algoritma Naive Bayes (Reihan)
+- PENERAPAN MODEL KLASIFIKASI METODE NAIVE BAYES TERHADAP PENGGUNAAN AKSES INTERNET (Rizky)

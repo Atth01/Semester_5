@@ -1,0 +1,17 @@
+K Means:
+- K, Kluster
+- Untuk project, wajib menyiapkan CRISP-DM
+- Supervised, Datanya harus memiliki output, label/kelas
+- Unsupervised, Datanya tidak memiliki output
+
+
+Project Data Mining, dibawah ini /slide
+- Business Understanding, data yang ada akan diapakan
+- Data Understanding, memahami data yang akan digunakan
+- Data Preparation, melakukan persiapan data (proses cleaning data)
+- Modeling, Menerapkan algoritma yang sesuai dengan data
+- Evaluation, Menguji algoritma data mining hasil class dari data modeling apakah sudah sesuai dengan menggunakan metode
+> Supervised: Confusion Matrix / K-Fold Cross Validation
+> Unsupervised: Silhoutte / Elbow / Davis Bouldin Index (DBI)
+- Deployment, 
+

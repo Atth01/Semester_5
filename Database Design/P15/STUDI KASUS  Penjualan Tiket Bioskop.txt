@@ -1,0 +1,176 @@
+STUDI KASUS : Penjualan Tiket Bioskop
+1.Film:
+
+ID Film
+Judul Film
+Genre
+Durasi
+Tanggal Rilis
+Deskripsi
+
+2.Studio Bioskop:
+
+ID Studio
+Nama Studio
+Lokasi
+Kapasitas Studio
+Jenis Layar (2D, 3D, IMAX)
+
+3.Jadwal Film:
+
+ID Jadwal
+ID Film (foreign key)
+ID Studio (foreign key)
+Tanggal Tayang
+Jam Tayang
+
+4.Pemesanan Tiket:
+
+ID Pemesanan
+ID Jadwal (foreign key)
+Jumlah Tiket
+Total Harga
+Tanggal Pemesanan
+Metode Pembayaran
+
+5.Pelanggan:
+
+ID Pelanggan
+Nama Pelanggan
+Nomor Telepon
+Email
+Riwayat Pemesanan
+
+6.Tiket:
+
+ID Tiket
+ID Pemesanan (foreign key)
+Nomor Kursi
+Status Tiket (diproses, digunakan, dibatalkan)
+
+7.Pegawai:
+
+ID Pegawai
+Nama Pegawai
+Jabatan
+Gaji
+Nomor Telepon
+Email
+
+8.Promosi:
+
+ID Promosi
+Jenis Promosi (diskon, paket bundling, voucher)
+Deskripsi Promosi
+Tanggal Berlaku
+Syarat dan Ketentuan
+
+9.Laporan Penjualan:
+
+ID Laporan
+Tanggal Pembuatan
+Total Penjualan Harian
+Rincian Penjualan per Jadwal Film
+Analisis Performa Penjualan
+
+10.Rating Film:
+
+ID Rating
+ID Film (foreign key)
+Nilai Rating
+Ulasan
+Tanggal Rating
+
+11.Manajemen Inventaris:
+
+ID Inventaris
+Nama Barang (contoh: popcorn, minuman)
+Jumlah Tersedia
+Lokasi Penyimpanan
+Tanggal Penerimaan
+
+12.Perizinan Film:
+
+ID Perizinan
+ID Film (foreign key)
+Tanggal Perizinan
+Status Perizinan
+Catatan Perizinan
+
+13.Teknologi Layar:
+
+ID Teknologi Layar
+Jenis Layar (2D, 3D, IMAX)
+Deskripsi Teknologi
+Tanggal Pembelian
+Perawatan Terakhir
+Riwayat Perbaikan
+
+14.Keamanan Bioskop:
+
+ID Keamanan
+Jenis Keamanan (CCTV, petugas keamanan)
+Deskripsi Keamanan
+Lokasi Penempatan
+Tanggal Pemasangan
+
+15Manajemen Karyawan:
+
+ID Manajemen Karyawan
+ID Pegawai (foreign key)
+Jadwal Kerja
+Evaluasi Kinerja
+Pelatihan yang Diberikan
+Rencana Pengembangan Karyawan
+
+
+
+
+
+
+Tentu, berikut adalah relasi antar entitas untuk studi kasus Penjualan Tiket Bioskop:
+
+1. *Film dan Jadwal Film (1 to Many):*
+   - Film(ID Film) -> Jadwal Film(ID Film)
+
+2. *Studio Bioskop dan Jadwal Film (1 to Many):*
+   - Studio Bioskop(ID Studio) -> Jadwal Film(ID Studio)
+
+3. *Jadwal Film dan Pemesanan Tiket (1 to Many):*
+   - Jadwal Film(ID Jadwal) -> Pemesanan Tiket(ID Jadwal)
+
+4. *Jadwal Film dan Laporan Penjualan (1 to Many):*
+   - Jadwal Film(ID Jadwal) -> Laporan Penjualan(Rincian Penjualan per Jadwal Film)
+
+5. *Pemesanan Tiket dan Tiket (1 to Many):*
+   - Pemesanan Tiket(ID Pemesanan) -> Tiket(ID Pemesanan)
+
+6. *Pemesanan Tiket dan Pelanggan (Many to One):*
+   - Pemesanan Tiket(ID Pelanggan) <- Pelanggan(ID Pelanggan)
+
+7. *Pemesanan Tiket dan Pegawai (Many to One):*
+   - Pemesanan Tiket(ID Pegawai) <- Pegawai(ID Pegawai)
+
+8. *Pemesanan Tiket dan Promosi (Many to One):*
+   - Pemesanan Tiket(ID Promosi) <- Promosi(ID Promosi)
+
+9. *Rating Film dan Film (Many to One):*
+   - Rating Film(ID Film) <- Film(ID Film)
+
+10. *Manajemen Inventaris dan Pemesanan Tiket (1 to Many):*
+    - Manajemen Inventaris(ID Inventaris) -> Pemesanan Tiket(ID Inventaris)
+
+11. *Perizinan Film dan Film (Many to One):*
+    - Perizinan Film(ID Film) <- Film(ID Film)
+
+12. *Teknologi Layar dan Studio Bioskop (1 to Many):*
+    - Teknologi Layar(ID Studio) -> Studio Bioskop(ID Studio)
+
+13. *Keamanan Bioskop dan Studio Bioskop (1 to Many):*
+    - Keamanan Bioskop(ID Studio) -> Studio Bioskop(ID Studio)
+
+14. *Manajemen Karyawan dan Pegawai (Many to One):*
+    - Manajemen Karyawan(ID Pegawai) <- Pegawai(ID Pegawai)
+
+Dengan relasi ini, Anda dapat melihat hubungan antar entitas dalam sistem informasi penjualan tiket bioskop, termasuk bagaimana setiap entitas terhubung satu sama lain.
+

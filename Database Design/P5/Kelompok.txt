@@ -1,0 +1,12 @@
+Ketua : Indri
+Pembagian materi : 
+3.Menentukan primary key dari setiap entity (Atthariq & Ina)
+4.Menentukan relationship antar entitas (Deliya Sefira)
+5.Menentukan atribut - atribut dari setiap relationship (jika ada) (Syafira Meysa)
+6.Menentukan cardinality rasio (Yunisa Indri)
+7.Menggambar ER Diagram (All)
+
+Kelompok1 = Atthariq Ina
+Kelompok2 = Syafira Meysa
+Kelompok3 = Deliya Sefira
+Kelompok4 = Yunisa Indri

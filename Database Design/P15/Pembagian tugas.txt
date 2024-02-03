@@ -1,0 +1,12 @@
+Pembagian bagian presentasi:
+- Entitas & atribut
+> Ina (Film, Studio_Bioskop, Jadwal_Film)
+> Syafira (Pemesanan_Tiket, Pelanggan, Tiket)
+> Indri (Pegawai, Promosi, Laporan_Penjualan)
+> Sefira (Rating_Film, Perizinan_Film, Keamanan_Bioskop)
+- Relasi
+> Deliya (1-4)
+> Meisa (5-8)
+> Yunisa (8-11)
+- ERD
+> Atthariq

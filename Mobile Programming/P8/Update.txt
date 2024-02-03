@@ -1,0 +1,51 @@
+public function index_put()
+    {
+        $kd = $this->put('kd');
+
+        $config['upload_path']          = './uploads/warga/';
+		$config['allowed_types']        = 'gif|jpg|png';
+		$config['max_size']             = 1000;
+ 
+		$this->load->library('upload', $config);
+ 
+		if ( ! $this->upload->do_upload('foto_warga')){
+            $error = array('error' => $this->upload->display_errors());
+            $this->response([
+                'status' => false,
+                'error' => $error,
+                'message' => 'No image inputed!.'
+            ], RestController::HTTP_BAD_REQUEST);
+		}else{
+            $upload_data =  $this->upload->data();
+            $FName = $upload_data['file_name'];
+            $data = [
+                'nik' => $this->put('nik'),
+                'kk' => $this->put('kk'),
+                'foto' => $FName,
+                'nama' => $this->put('nama'),
+                'tempat_lahir' => $this->put('tempat_lahir'),
+                'tgl_lahir' => $this->put('tgl_lahir'),
+                'jenis_kelamin' => $this->put('jenis_kelami'),
+                'agama' => $this->put('agama'),
+                'status_perkawinan' => $this->put('status_perkawinan'),
+                'status_keluarga' => $this->put('status_keluarga'),
+                'status_pekerjaan' => $this->put('status_pekerjaan'),
+                'status_kewarganegaraan' => $this->put('status_kewarganegaraan'),
+                'kd_blok' => $this->put('kd_blok'),
+                'status_kavling' => $this->put('status_kavling'),
+                'tgl_masuk' => $this->put('tgl_masuk'),
+                'status_huni' => $this->put('status_huni'),
+            ];
+        }
+        if ($this->penduduk->updatePenduduk($data, $kd) > 0) {
+            $this->response([
+                'status' => 'Ok',
+                'message' => 'Data penduduk has been updated'
+            ], RestController::HTTP_OK);
+        } else {
+            $this->response([
+                'status' => 'Err',
+                'message' => 'Failed to update data!.'
+            ], RestController::HTTP_BAD_REQUEST);
+        }
+    }

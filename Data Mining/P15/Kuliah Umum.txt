@@ -1,0 +1,17 @@
+Kuliah Umum (Peranan data mining dan decision support system pada penelitian dalam Bidang IT)
+
+Data Mining and Decision Support System
+Dunia saat ini dibanjiri oleh data, data in 1 second
+- 10.217 tweets sended
+- 1.195 Instagram posts terunggah
+- 2.180 Posting tumblr send
+- 7.384 Skype call
+- 165.118 GB data traffic on internet
+- 106.462 History on Google
+- 97.970 Youtube video watched
+- 3.193.745 Email sended (~67% spam)
+
+
+Decision support system, sistem yang dirancang untuk membantu para pengambil keputusan dalam menghadapi masalah semi terstruktur atau tidak terstruktur serta mendukung pengambilan kpeutusan yang kompleks, harus ada pengambilan keputusan yang kompleks dalam peracangan decision support system
+
+Data Mining, metode untuk mengekstrak pengetahuan atau menemukan pola dari suatu data yang besar

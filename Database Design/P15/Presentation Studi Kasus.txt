@@ -1,0 +1,12 @@
+Database design:
+Kasus (Sistem informasi rumah sakit)
+Pasien (ID Pasien, Nama, Tanggal Lahir, Alamat, Riwayat Kesehatan.)
+Dokter:(ID Dokter, Nama, Spesialisasi, Jadwal Praktek, Nomor Telepon.)
+Rumah Sakit:(Attribut: ID RS, Nama RS, Alamat, Nomor Telepon, Kapasitas.)
+Rekam Medis:(Attribut: ID Rekam Medis, ID Pasien, ID Dokter, Diagnosa, Tindakan Medis.)
+Obat:(Attribut: Kode Obat, Nama Obat, Komposisi, Dosis, Harga.)
+Laboratorium:(ID Laboratorium, Nama Lab, Jenis Uji, Biaya Uji.)
+Pengadaan Barang:(ID Pengadaan, Tanggal Pengadaan, Supplier, Jumlah Barang, Total Biaya.)
+Proyek Konstruksi:(ID Proyek, Nama Proyek, Lokasi, Anggaran, Tanggal Mulai, Tanggal Selesai.)
+Karyawan:(ID Karyawan, Nama, Jabatan, Gaji, Tanggal Mulai Kerja.)
+Sistem Keamanan:(ID Keamanan, Jenis Keamanan, Akses, Log Aktivitas.)

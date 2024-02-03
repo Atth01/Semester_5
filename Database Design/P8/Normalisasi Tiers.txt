@@ -1,0 +1,16 @@
+Normalisasi Tiers:
+- UNCF (Unnormalized Form), table masih universal dan belum di perbaiki
+- 1NF (First Normal Form), Rules:
+> Setiap atribute name harus unik, check apakah ada atribut name yang double
+> Setiap atribute value harus sendiri
+> Setiap baris harus unik
+> Tidak ada data yang berulang, seperti merged cell
+> Setelah dilakukan 1NF, pilih primary key
+> Untuk mengantisipasi primary key yang diinginkan tidak unik, maka gunakan 2 atribut kolom untuk dijadikan sebuah primary key atau disebut composite key
+- 2NF (Second Normal Form), Rules:
+> Tabel yang akan dinormalkan sudah 1NF
+> Semua atribut yang bukan primary key, semuanya harus tergantung sepenuhnya dengan primary key
+> Dilakukan lah, memisahkan tabel 1NF ini ke dalam beberapa tabel, berdasarkan primary key
+- 3NF (Third Normal Form), Rules:
+> Tabel yang akan dinormalkan sudah 2NF
+> Semua atribut yang bukan primary key dari seluruh tabel tidak boleh tergantung dengan atribut lain yang bukan primary key

@@ -1,0 +1,8 @@
+Business Understanding:
+Menampilkan urutan provinsi dengan angka harapan hidup paling tinggi baik pria dan wanita pada tahun 2022
+Data Undertstanding:
+Data yang digunakan dalam kasus ini;
+- Data Angka Harapan Hidup di Indonesia pada tahun 2022
+- Data Angka harapan hidup laki - laki di indonesia tahun 2022
+- Data Angka harapan hidup perempuan di Indonesia tahun 2022
+Algoritma yang digunakan adalah, algoritma hierarchical clustering

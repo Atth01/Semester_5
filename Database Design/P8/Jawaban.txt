@@ -1,0 +1,2 @@
+- Alasan mengapa suatu basis data harus berada dalam kondisi normal
+Alasannya untuk mencegah terjadinya kesalahan dalam penggunaan data seperti error, redudansi data dan anomali data dan juga memudahkan dalam pengolahan data

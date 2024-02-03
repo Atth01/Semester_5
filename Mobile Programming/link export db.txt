@@ -1,0 +1,4 @@
+link export db
+mysqldump -u root -p resto > wantedsqlfile.sql
+link export db with all
+mysqldump -u root -p --triggers --routines --events dbname > wantedsqlfile.sql

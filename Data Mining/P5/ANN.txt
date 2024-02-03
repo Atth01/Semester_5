@@ -1,0 +1,5 @@
+-  ANN = Meniru cara kerja sistem saraf otak manusia
+- Setiap neuron mempunyai (Dendrites, Cell body, Axon) (INPUT, PROSES, OUTPUT)
+- Setiap inputan harus memiliki Weight
+- Target harus sama, supaya errornya 0 dan datanya konsisten
+- Jika error sudah = 0 semua maka bisa masukkan data baru
